@@ -7,9 +7,9 @@ works as a proxy server: it translates queries from apps (Sonarr, Radarr, SickRa
 Install
 Just execute below code to install.
 
-wget https://raw.githubusercontent.com/sayem314/pirates-mediaserver/master/jackett/jackett-install.sh -O - -o /dev/null|bash
+wget https://raw.githubusercontent.com/connedigital/mediacenter/master/jackett/jackett-install.sh -O - -o /dev/null|bash
 
 Update
 Just execute below code to update.
 
-wget https://raw.githubusercontent.com/sayem314/pirates-mediaserver/master/jackett/jackett-update.sh -O - -o /dev/null|bash
+wget https://raw.githubusercontent.com/connedigital/mediacenter/master/jackett/jackett-update.sh -O - -o /dev/null|bash
