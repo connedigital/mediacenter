@@ -12,4 +12,4 @@ wget https://raw.githubusercontent.com/connedigital/mediacenter/master/radarr/ra
 Update
 Just execute below code to update.
 
-wget https://github.com/connedigital/mediacenter/blob/master/radarr/radarr-updater.sh -O - -o /dev/null|bash
+wget https://raw.githubusercontent.com/connedigital/mediacenter/master/radarr/radarr-updater.sh -O - -o /dev/null|bash
