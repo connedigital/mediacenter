@@ -1,8 +1,8 @@
 #!/bin/bash
-# radarr-installer by @connedigital
+# radarr-installer by @sayem314
 
 # Global value
-user="radarr"
+user="mediaserver"
 installdir="/opt/$user"
 
 # check if installed
@@ -13,7 +13,7 @@ if [[ -e $installdir/Radarr/Radarr.exe ]]; then
 fi
 
 # install mono if not exist
-hash mono 2>/dev/null || wget https://github.com/connedigital/mediacenter/blob/master/mono-project/mono-install.sh -O - -o /dev/null|bash
+hash mono 2>/dev/null || wget https://raw.githubusercontent.com/sayem314/pirates-mediaserver/master/mono.sh -O - -o /dev/null|bash
 
 # Creating non-root user
 [[ -d $installdir ]] || mkdir -p $installdir
