@@ -7,7 +7,7 @@ Radarr is an independent fork of Sonarr reworked for automatically downloading m
 Install
 Just execute below code to install.
 
-wget https://github.com/connedigital/mediacenter/blob/master/radarr/radarr-install.sh -O - -o /dev/null|bash
+wget https://raw.githubusercontent.com/connedigital/mediacenter/master/radarr/radarr-install.sh -O - -o /dev/null|bash
 
 Update
 Just execute below code to update.
