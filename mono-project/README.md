@@ -6,4 +6,4 @@ Mono is a software platform designed to allow developers to easily create cross 
 Install
 Just execute below code to install.
 
-wget https://raw.githubusercontent.com/sayem314/pirates-mediaserver/master/mono/mono-install.sh -O - -o /dev/null|bash
+wget https://github.com/connedigital/mediacenter/blob/master/mono-project/mono-install.sh -O - -o /dev/null|bash
