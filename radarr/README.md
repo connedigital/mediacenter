@@ -12,4 +12,4 @@ wget https://github.com/connedigital/mediacenter/blob/master/radarr/radarr-insta
 Update
 Just execute below code to update.
 
-wget https://raw.githubusercontent.com/sayem314/pirates-mediaserver/master/radarr/radarr-update.sh -O - -o /dev/null|bash
+wget https://github.com/connedigital/mediacenter/blob/master/radarr/radarr-updater.sh -O - -o /dev/null|bash
