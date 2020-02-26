@@ -3,11 +3,11 @@
 
 # check if installed
 if [[ -e /usr/bin/mono ]]; then
-	echo "Mono já instalado nesse servidor."
+	echo "Mono is already installed."
 	exit
 fi
 
-echo "Instalando mono. Por favor, aguarde!"
+echo "Installing mono. Please wait!"
 # Detecting apt-get/yum
 if hash apt-get 2>/dev/null; then
 	apt-get install lsb-release curl dirmngr -qy
@@ -21,7 +21,7 @@ if hash apt-get 2>/dev/null; then
 		apt-get install mono-devel -qy
 		apt-get install libmono-cil-dev mediainfo sqlite3 -qy
 	fi
-	echo "Instalação terminada."
+	echo "Install finished."
 
 # CentOS is experimental
 elif hash yum 2>/dev/null; then
@@ -34,7 +34,7 @@ elif hash yum 2>/dev/null; then
 		yum install mono-devel -qy
 		yum install libmono-cil-dev mediainfo sqlite3 -qy
 	fi
-	echo "Instalação terminada."
+	echo "Install finished."
 else
-	echo "estrutura ou aquitetura não suportada"
+	echo "unsupported or unknown architecture"
 fi
