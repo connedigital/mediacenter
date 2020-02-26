@@ -2,7 +2,7 @@
 # radarr-updater by @connedigital
 
 # Global value
-user="mediaserver"
+user="radarr"
 installdir="/opt/$user"
 
 # working directory
