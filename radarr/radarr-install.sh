@@ -2,7 +2,7 @@
 # radarr-installer by @connedigital
 
 # Global value
-user="radarr"
+user="Radarr"
 installdir="/opt/$user"
 
 # check if installed
@@ -39,7 +39,7 @@ init=$(cat /proc/1/comm)
 if [[ "$init" == "systemd" ]]; then
 	echo "Creating systemd service"
 	echo "[Unit]
-Description=Radrr Daemon
+Description=Radarr Daemon
 After=network.target
 
 [Service]
